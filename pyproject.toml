@@ -12,6 +12,7 @@ members = [
     "features/sayplan-shared_kernel",
     "features/sayplan-shared_kernel-infra-fastapi",
     "features/sayplan-shared-kernel-infra-database-sqla",
+    "experiments",
 ]
 
 
@@ -54,3 +55,6 @@ select = ["E4", "E7", "E9", "F"]
 fixable = ["ALL"]
 unfixable = []
 dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[dependency-groups]
+dev = []
